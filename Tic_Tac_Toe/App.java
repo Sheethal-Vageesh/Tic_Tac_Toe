@@ -13,8 +13,9 @@ public class App {
         System.out.println("First Project -> Tic Tac Toe");
 
         Scanner sc=new Scanner(System.in);
-        int size=sc.nextInt();
-        
+
+        System.out.print("please enter the size of board : ");
+        int size=sc.nextInt();        
         Board b=new Board(size,'-');        
 
         Player[] p=new Player[2];
