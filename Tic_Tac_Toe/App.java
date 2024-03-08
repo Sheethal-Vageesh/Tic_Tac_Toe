@@ -15,7 +15,7 @@ public class App {
         Scanner sc=new Scanner(System.in);
 
         System.out.print("please enter the size of board : ");
-        int size=sc.nextInt();        
+        int size=(sc.nextLine().charAt(0))-'0';        
         Board b=new Board(size,'-');        
 
         Player[] p=new Player[2];
