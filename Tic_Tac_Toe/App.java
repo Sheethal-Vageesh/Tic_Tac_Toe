@@ -11,9 +11,11 @@ public class App {
     public static void main(String[] args) throws Exception
     {
         System.out.println("First Project -> Tic Tac Toe");
-        Board b=new Board(3,'-');
 
         Scanner sc=new Scanner(System.in);
+        int size=sc.nextInt();
+        
+        Board b=new Board(size,'-');        
 
         Player[] p=new Player[2];
 
